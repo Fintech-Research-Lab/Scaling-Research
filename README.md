@@ -1,3 +1,5 @@
+Random findings on syncing an Ethereum node using go-ethereum.
+
 # Full Node Sync Validation
 
 During a full node sync, there is overhead that comes with processing, validating, and updating state. The goal of this analysis is to find bottlenecks that may influence the development of Quai. Below we have outlined the metho calls that lead up to the `insertChain` method in `core/blockchain.go` that handles the majority of the processing and inserting during syncing with a peer.

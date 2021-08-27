@@ -1,4 +1,8 @@
 Random findings on syncing an Ethereum node using go-ethereum.
+# Run Notebook
+`pip install -r requirements.txt`
+`source env/bin/activate`
+`juypter lab`
 
 # Full Node Sync Validation
 
